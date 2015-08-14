@@ -20,7 +20,6 @@ var ConfigStruct struct {
 	Timeout       int    `json:"timeout"`
 }
 
-
 func LoadConfig() error {
 	//read config
 	configFile, err := mini.LoadConfiguration("settings.ini")
